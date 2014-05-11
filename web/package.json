@@ -1,0 +1,9 @@
+{
+    "name": "tangelo",
+    "version": "0.0.0",
+    "description": "whee",
+    "devDependencies": {
+        "grunt": "^0.4.4",
+        "grunt-contrib-watch": "^0.6.1"
+    }
+}
