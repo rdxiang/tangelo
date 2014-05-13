@@ -1,93 +1,106 @@
 <!DOCTYPE html>
-<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
-<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
-<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
-<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-        <title></title>
-        <meta name="description" content="">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
+<!--[if lt IE 7]>
+<html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>
+<html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>
+<html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="no-js"> <!--<![endif]-->
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title></title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 
-        <script src="http://localhost:9090/livereload.js"></script>
+    <script src="http://localhost:9090/livereload.js"></script>
 
-        <link href='http://fonts.googleapis.com/css?family=Lobster' rel='stylesheet' type='text/css'>
-
-
-        <link href="//netdna.bootstrapcdn.com/bootswatch/3.1.1/darkly/bootstrap.min.css" rel="stylesheet">
-
-        <!-- Latest compiled and minified JavaScript -->
-        <script src="//netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
-
-        <link rel="stylesheet" href="./css/main.css">
+    <link href='http://fonts.googleapis.com/css?family=Lobster' rel='stylesheet' type='text/css'>
 
 
-        <!--<script src="js/vendor/modernizr-2.6.2-respond-1.1.0.min.js"></script>-->
-
-    </head>
-    <body>
-        <!--[if lt IE 7]>
-            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
-        <![endif]-->
+    <link href="//netdna.bootstrapcdn.com/bootswatch/3.1.1/darkly/bootstrap.min.css" rel="stylesheet">
 
 
-        <section id="todoapp">
-            <div class = "container">
-                <header id="header">
-                    <h1>Tangelo </h1>
-                </header>
+    <script src="js/vendor/jquery-1.11.0.min.js"></script>
 
-                <section id="main" style = "overflow: hidden">
-                    <div class=" col-md-5 col-lg-5">
-                        <div class="panel panel-warning">
-                            <!-- Default panel contents -->
-                            <div class="panel-heading"> <h4> Todos  </h4></div>
-                            <div class="panel-body">
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="//netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
 
-                               <input type="text" class= "form-control" id="new-todo" placeholder="What needs to be done?">
+    <link rel="stylesheet" href="./css/main.css">
 
 
+    <!--<script src="js/vendor/modernizr-2.6.2-respond-1.1.0.min.js"></script>-->
 
-                            </div>
-
-                            <!-- List group -->
-                            <ul class="list-group" id =  "todo-list" >
-
-                                <li  class=" list-group-item">
-                                <input type="checkbox" class="toggle">
-                                <label>whattt</label>  <input type="number" name="quantity" min="1" max="5"> <span class="glyphicon glyphicon-remove pull-right"></span>
-                                </li>
+</head>
+<body>
+<!--[if lt IE 7]>
+<p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade
+    your browser</a> to improve your experience.</p>
+<![endif]-->
 
 
-                                <li  class=" list-group-item">
-                                    <input type="checkbox" class="toggle">
-                                    <label>whattt</label><span class="glyphicon glyphicon-remove pull-right"></span>
-                                </li>
+<section id="todoapp">
+    <div class="container">
+        <header id="header">
+            <h1>Tangelo </h1>
+        </header>
 
-                                <li  class="list-group-item">
-                                    <input type="checkbox" class="toggle">
-                                    <label>whattt</label> <span class="glyphicon glyphicon-remove pull-right"></span>
-                                </li>
+        <section id="main" style="overflow: hidden">
+            <div class=" col-md-5 col-lg-5">
+                <div class="panel panel-warning tasklist">
+                    <!-- Default panel contents -->
+                    <div class="panel-heading"><h4> Todos </h4></div>
+                    <div class="panel-body">
 
-                            </ul>
-                        </div>
+                        <input type="text" class="form-control newTask" id="new-todo" placeholder="What needs to be done?">
+
 
                     </div>
-                </section>
+
+                    <!-- List group -->
+                    <ul class="list-group" id="todo-list">
+                    </ul>
+                </div>
+
+            </div>
+        </section>
 
 
+        <!--templates-->
 
+        <script type="text/html" id="template-task">
+            <input type="checkbox" class="toggle">
+            <%= name %>    <span class = "pull-right ">
+             <%= totalPom - completedPom %> pomodoro
+                  <span class="minus"> - </span>
 
-        <script src="js/vendor/backbone-min.js"></script>
-        <script src="js/vendor/jquery-1.11.0.min.js"></script>
+                  <span class="plus "> + </span>
+                <span class="glyphicon glyphicon-remove "></span>
+
+            </span>
+        </script>
+
         <script src="js/vendor/json2.js"></script>
         <script src="js/vendor/underscore-min.js"></script>
-
+        <script src="js/vendor/backbone-min.js"></script>
 
 
         <!-- later include app/setup/mvc things here -->
+        <script src ="js/app.js"></script>
+
+        <script src ="js/app/models/taskmodel.js"></script>
+        <script src ="js/app/collections/taskcollection.js"></script>
 
 
-    </body>
+        <script src = "js/app/views/taskview.js"></script>
+        <script src = "js/app/views/tasklist.js"></script>
+        <script src ="js/app/views/appview.js"></script>
+
+        <script src ="js/setup.js"></script>
+
+
+
+
+</body>
 </html>

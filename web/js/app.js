@@ -4,9 +4,9 @@
 // app.js
 
 window.App = {
-    models: {},
-    collections: {},
-    mixins: {},
-    views: {},
-    routers:{}
+    Models: {},
+    Collections: {},
+    Mixins: {},
+    Views: {},
+    Routers:{}
 };

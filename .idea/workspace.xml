@@ -2,19 +2,278 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ce3d51fb-4dd5-4d0c-91f6-f9d8b4af5a8a" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/Gruntfile.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/package.json" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/css/bootstrap-theme.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/css/bootstrap-theme.css.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/css/bootstrap-theme.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/css/bootstrap.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/css/bootstrap.css.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/css/bootstrap.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/js/vendor/bootstrap.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/js/vendor/bootstrap.min.js" afterPath="" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/js/app/views/appview.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/codeStyleSettings.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/js/app/collections/taskcollection.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/js/app/views/tasklist.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/js/app/models/taskmodel.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/js/app/views/taskview.js" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/js/app/collections/removeme.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/js/app/models/remove.txt" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/node_modules/grunt/node_modules/findup-sync/.jshintrc" afterPath="$PROJECT_DIR$/web/node_modules/grunt/node_modules/findup-sync/.jshintrc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/node_modules/grunt/node_modules/getobject/.jshintrc" afterPath="$PROJECT_DIR$/web/node_modules/grunt/node_modules/getobject/.jshintrc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/node_modules/grunt/node_modules/findup-sync/node_modules/glob/test/00-setup.js" afterPath="$PROJECT_DIR$/web/node_modules/grunt/node_modules/findup-sync/node_modules/glob/test/00-setup.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/Gruntfile.js" afterPath="$PROJECT_DIR$/web/Gruntfile.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/node_modules/grunt/node_modules/findup-sync/Gruntfile.js" afterPath="$PROJECT_DIR$/web/node_modules/grunt/node_modules/findup-sync/Gruntfile.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/node_modules/grunt/node_modules/getobject/Gruntfile.js" afterPath="$PROJECT_DIR$/web/node_modules/grunt/node_modules/getobject/Gruntfile.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/node_modules/grunt-contrib-watch/node_modules/tiny-lr-fork/node_modules/noptify/node_modules/nopt/node_modules/abbrev/abbrev.js" afterPath="$PROJECT_DIR$/web/node_modules/grunt-contrib-watch/node_modules/tiny-lr-fork/node_modules/noptify/node_modules/nopt/node_modules/abbrev/abbrev.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/node_modules/grunt/node_modules/js-yaml/node_modules/argparse/lib/action.js" afterPath="$PROJECT_DIR$/web/node_modules/grunt/node_modules/js-yaml/node_modules/argparse/lib/action.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/node_modules/grunt/node_modules/js-yaml/node_modules/argparse/lib/action_container.js" afterPath="$PROJECT_DIR$/web/node_modules/grunt/node_modules/js-yaml/node_modules/argparse/lib/action_container.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/node_modules/grunt/node_modules/js-yaml/node_modules/argparse/lib/help/added_formatters.js" afterPath="$PROJECT_DIR$/web/node_modules/grunt/node_modules/js-yaml/node_modules/argparse/lib/help/added_formatters.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/node_modules/grunt-contrib-watch/node_modules/tiny-lr-fork/node_modules/faye-websocket/lib/faye/websocket/api.js" afterPath="$PROJECT_DIR$/web/node_modules/grunt-contrib-watch/node_modules/tiny-lr-fork/node_modules/faye-websocket/lib/faye/websocket/api.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/node_modules/grunt-contrib-watch/node_modules/tiny-lr-fork/node_modules/noptify/test/api.js" afterPath="$PROJECT_DIR$/web/node_modules/grunt-contrib-watch/node_modules/tiny-lr-fork/node_modules/noptify/test/api.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/js/app.js" afterPath="$PROJECT_DIR$/web/js/app.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/node_modules/grunt/node_modules/js-yaml/node_modules/argparse/lib/action/append.js" afterPath="$PROJECT_DIR$/web/node_modules/grunt/node_modules/js-yaml/node_modules/argparse/lib/action/append.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/node_modules/grunt/node_modules/js-yaml/node_modules/argparse/lib/argparse.js" afterPath="$PROJECT_DIR$/web/node_modules/grunt/node_modules/js-yaml/node_modules/argparse/lib/argparse.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/node_modules/grunt/node_modules/js-yaml/node_modules/argparse/lib/argument_parser.js" afterPath="$PROJECT_DIR$/web/node_modules/grunt/node_modules/js-yaml/node_modules/argparse/lib/argument_parser.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/node_modules/grunt/node_modules/js-yaml/node_modules/argparse/examples/arguments.js" afterPath="$PROJECT_DIR$/web/node_modules/grunt/node_modules/js-yaml/node_modules/argparse/examples/arguments.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/node_modules/grunt/node_modules/js-yaml/node_modules/argparse/node_modules/underscore.string/test/test_underscore/arrays.js" afterPath="$PROJECT_DIR$/web/node_modules/grunt/node_modules/js-yaml/node_modules/argparse/node_modules/underscore.string/test/test_underscore/arrays.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/node_modules/grunt-contrib-watch/node_modules/async/lib/async.js" afterPath="$PROJECT_DIR$/web/node_modules/grunt-contrib-watch/node_modules/async/lib/async.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/node_modules/grunt-contrib-watch/node_modules/tiny-lr-fork/node_modules/faye-websocket/examples/autobahn_client.js" afterPath="$PROJECT_DIR$/web/node_modules/grunt-contrib-watch/node_modules/tiny-lr-fork/node_modules/faye-websocket/examples/autobahn_client.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/node_modules/grunt/node_modules/findup-sync/node_modules/glob/test/bash-comparison.js" afterPath="$PROJECT_DIR$/web/node_modules/grunt/node_modules/findup-sync/node_modules/glob/test/bash-comparison.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/node_modules/grunt/node_modules/findup-sync/node_modules/glob/test/bash-results.json" afterPath="$PROJECT_DIR$/web/node_modules/grunt/node_modules/findup-sync/node_modules/glob/test/bash-results.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/node_modules/grunt-contrib-watch/node_modules/gaze/node_modules/globule/node_modules/minimatch/node_modules/lru-cache/test/basic.js" afterPath="$PROJECT_DIR$/web/node_modules/grunt-contrib-watch/node_modules/gaze/node_modules/globule/node_modules/minimatch/node_modules/lru-cache/test/basic.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/node_modules/grunt-contrib-watch/node_modules/gaze/node_modules/globule/node_modules/minimatch/node_modules/sigmund/test/basic.js" afterPath="$PROJECT_DIR$/web/node_modules/grunt-contrib-watch/node_modules/gaze/node_modules/globule/node_modules/minimatch/node_modules/sigmund/test/basic.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/node_modules/grunt-contrib-watch/node_modules/gaze/node_modules/globule/node_modules/minimatch/test/basic.js" afterPath="$PROJECT_DIR$/web/node_modules/grunt-contrib-watch/node_modules/gaze/node_modules/globule/node_modules/minimatch/test/basic.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/node_modules/grunt/node_modules/minimatch/node_modules/lru-cache/test/basic.js" afterPath="$PROJECT_DIR$/web/node_modules/grunt/node_modules/minimatch/node_modules/lru-cache/test/basic.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/node_modules/grunt/node_modules/minimatch/node_modules/sigmund/test/basic.js" afterPath="$PROJECT_DIR$/web/node_modules/grunt/node_modules/minimatch/node_modules/sigmund/test/basic.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/node_modules/grunt/node_modules/minimatch/test/basic.js" afterPath="$PROJECT_DIR$/web/node_modules/grunt/node_modules/minimatch/test/basic.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/node_modules/grunt-contrib-watch/node_modules/gaze/node_modules/globule/node_modules/minimatch/node_modules/sigmund/bench.js" afterPath="$PROJECT_DIR$/web/node_modules/grunt-contrib-watch/node_modules/gaze/node_modules/globule/node_modules/minimatch/node_modules/sigmund/bench.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/node_modules/grunt/node_modules/minimatch/node_modules/sigmund/bench.js" afterPath="$PROJECT_DIR$/web/node_modules/grunt/node_modules/minimatch/node_modules/sigmund/bench.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/node_modules/grunt-contrib-watch/node_modules/tiny-lr-fork/node_modules/qs/benchmark.js" afterPath="$PROJECT_DIR$/web/node_modules/grunt-contrib-watch/node_modules/tiny-lr-fork/node_modules/qs/benchmark.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/node_modules/grunt/node_modules/iconv-lite/test/big5-test.js" afterPath="$PROJECT_DIR$/web/node_modules/grunt/node_modules/iconv-lite/test/big5-test.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/node_modules/grunt/node_modules/iconv-lite/encodings/big5.js" afterPath="$PROJECT_DIR$/web/node_modules/grunt/node_modules/iconv-lite/encodings/big5.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/node_modules/grunt/node_modules/iconv-lite/encodings/table/big5.js" afterPath="$PROJECT_DIR$/web/node_modules/grunt/node_modules/iconv-lite/encodings/table/big5.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/node_modules/grunt/node_modules/js-yaml/lib/js-yaml/type/binary.js" afterPath="$PROJECT_DIR$/web/node_modules/grunt/node_modules/js-yaml/lib/js-yaml/type/binary.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/node_modules/grunt-contrib-watch/node_modules/gaze/node_modules/globule/node_modules/minimatch/test/brace-expand.js" afterPath="$PROJECT_DIR$/web/node_modules/grunt-contrib-watch/node_modules/gaze/node_modules/globule/node_modules/minimatch/test/brace-expand.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/node_modules/grunt/node_modules/minimatch/test/brace-expand.js" afterPath="$PROJECT_DIR$/web/node_modules/grunt/node_modules/minimatch/test/brace-expand.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/node_modules/grunt-contrib-watch/node_modules/gaze/node_modules/globule/node_modules/minimatch/test/caching.js" afterPath="$PROJECT_DIR$/web/node_modules/grunt-contrib-watch/node_modules/gaze/node_modules/globule/node_modules/minimatch/test/caching.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/node_modules/grunt/node_modules/minimatch/test/caching.js" afterPath="$PROJECT_DIR$/web/node_modules/grunt/node_modules/minimatch/test/caching.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/node_modules/grunt/node_modules/coffee-script/lib/coffee-script/cake.js" afterPath="$PROJECT_DIR$/web/node_modules/grunt/node_modules/coffee-script/lib/coffee-script/cake.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/node_modules/grunt/node_modules/coffee-script/bin/cake" afterPath="$PROJECT_DIR$/web/node_modules/grunt/node_modules/coffee-script/bin/cake" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/node_modules/grunt/node_modules/js-yaml/node_modules/argparse/node_modules/underscore.string/test/test_underscore/chaining.js" afterPath="$PROJECT_DIR$/web/node_modules/grunt/node_modules/js-yaml/node_modules/argparse/node_modules/underscore.string/test/test_underscore/chaining.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/node_modules/grunt/node_modules/js-yaml/node_modules/argparse/examples/choice.js" afterPath="$PROJECT_DIR$/web/node_modules/grunt/node_modules/js-yaml/node_modules/argparse/examples/choice.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/node_modules/grunt-contrib-watch/node_modules/tiny-lr-fork/lib/client.js" afterPath="$PROJECT_DIR$/web/node_modules/grunt-contrib-watch/node_modules/tiny-lr-fork/lib/client.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/node_modules/grunt-contrib-watch/node_modules/tiny-lr-fork/node_modules/faye-websocket/examples/client.js" afterPath="$PROJECT_DIR$/web/node_modules/grunt-contrib-watch/node_modules/tiny-lr-fork/node_modules/faye-websocket/examples/client.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/node_modules/grunt-contrib-watch/node_modules/tiny-lr-fork/node_modules/faye-websocket/lib/faye/websocket/client.js" afterPath="$PROJECT_DIR$/web/node_modules/grunt-contrib-watch/node_modules/tiny-lr-fork/node_modules/faye-websocket/lib/faye/websocket/client.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/node_modules/grunt-contrib-watch/node_modules/tiny-lr-fork/test/client.js" afterPath="$PROJECT_DIR$/web/node_modules/grunt-contrib-watch/node_modules/tiny-lr-fork/test/client.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/node_modules/grunt-contrib-watch/node_modules/tiny-lr-fork/node_modules/faye-websocket/spec/faye/websocket/client_spec.js" afterPath="$PROJECT_DIR$/web/node_modules/grunt-contrib-watch/node_modules/tiny-lr-fork/node_modules/faye-websocket/spec/faye/websocket/client_spec.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/node_modules/grunt/node_modules/coffee-script/bin/coffee" afterPath="$PROJECT_DIR$/web/node_modules/grunt/node_modules/coffee-script/bin/coffee" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/node_modules/grunt-contrib-watch/node_modules/tiny-lr-fork/node_modules/noptify/actions/collectable.js" afterPath="$PROJECT_DIR$/web/node_modules/grunt-contrib-watch/node_modules/tiny-lr-fork/node_modules/noptify/actions/collectable.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/node_modules/grunt-contrib-watch/node_modules/tiny-lr-fork/node_modules/noptify/test/collectable.js" afterPath="$PROJECT_DIR$/web/node_modules/grunt-contrib-watch/node_modules/tiny-lr-fork/node_modules/noptify/test/collectable.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/node_modules/grunt/node_modules/js-yaml/node_modules/argparse/node_modules/underscore.string/test/test_underscore/collections.js" afterPath="$PROJECT_DIR$/web/node_modules/grunt/node_modules/js-yaml/node_modules/argparse/node_modules/underscore.string/test/test_underscore/collections.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/node_modules/grunt-contrib-watch/node_modules/tiny-lr-fork/node_modules/noptify/actions/commandable.js" afterPath="$PROJECT_DIR$/web/node_modules/grunt-contrib-watch/node_modules/tiny-lr-fork/node_modules/noptify/actions/commandable.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/node_modules/grunt-contrib-watch/node_modules/tiny-lr-fork/node_modules/noptify/test/commandable.js" afterPath="$PROJECT_DIR$/web/node_modules/grunt-contrib-watch/node_modules/tiny-lr-fork/node_modules/noptify/test/commandable.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/node_modules/grunt/node_modules/js-yaml/node_modules/esprima/test/compat.js" afterPath="$PROJECT_DIR$/web/node_modules/grunt/node_modules/js-yaml/node_modules/esprima/test/compat.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/node_modules/grunt-contrib-watch/node_modules/async/component.json" afterPath="$PROJECT_DIR$/web/node_modules/grunt-contrib-watch/node_modules/async/component.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/node_modules/grunt-contrib-watch/node_modules/tiny-lr-fork/node_modules/qs/component.json" afterPath="$PROJECT_DIR$/web/node_modules/grunt-contrib-watch/node_modules/tiny-lr-fork/node_modules/qs/component.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/node_modules/grunt/node_modules/js-yaml/node_modules/argparse/node_modules/underscore.string/component.json" afterPath="$PROJECT_DIR$/web/node_modules/grunt/node_modules/js-yaml/node_modules/argparse/node_modules/underscore.string/component.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/node_modules/grunt/node_modules/js-yaml/node_modules/argparse/lib/action/append/constant.js" afterPath="$PROJECT_DIR$/web/node_modules/grunt/node_modules/js-yaml/node_modules/argparse/lib/action/append/constant.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/node_modules/grunt/node_modules/js-yaml/node_modules/argparse/lib/action/store/constant.js" afterPath="$PROJECT_DIR$/web/node_modules/grunt/node_modules/js-yaml/node_modules/argparse/lib/action/store/constant.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/node_modules/grunt/node_modules/js-yaml/node_modules/argparse/examples/constants.js" afterPath="$PROJECT_DIR$/web/node_modules/grunt/node_modules/js-yaml/node_modules/argparse/examples/constants.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/node_modules/grunt/node_modules/js-yaml/node_modules/argparse/lib/action/count.js" afterPath="$PROJECT_DIR$/web/node_modules/grunt/node_modules/js-yaml/node_modules/argparse/lib/action/count.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/node_modules/grunt/node_modules/js-yaml/examples/custom_types.js" afterPath="$PROJECT_DIR$/web/node_modules/grunt/node_modules/js-yaml/examples/custom_types.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/node_modules/grunt/node_modules/findup-sync/node_modules/glob/test/cwd-test.js" afterPath="$PROJECT_DIR$/web/node_modules/grunt/node_modules/findup-sync/node_modules/glob/test/cwd-test.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/node_modules/grunt/node_modules/iconv-lite/test/cyrillic-test.js" afterPath="$PROJECT_DIR$/web/node_modules/grunt/node_modules/iconv-lite/test/cyrillic-test.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/node_modules/grunt/node_modules/dateformat/lib/dateformat.js" afterPath="$PROJECT_DIR$/web/node_modules/grunt/node_modules/dateformat/lib/dateformat.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/node_modules/grunt-contrib-watch/node_modules/tiny-lr-fork/node_modules/debug/debug.js" afterPath="$PROJECT_DIR$/web/node_modules/grunt-contrib-watch/node_modules/tiny-lr-fork/node_modules/debug/debug.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/node_modules/grunt-contrib-watch/node_modules/tiny-lr-fork/node_modules/debug/lib/debug.js" afterPath="$PROJECT_DIR$/web/node_modules/grunt-contrib-watch/node_modules/tiny-lr-fork/node_modules/debug/lib/debug.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/node_modules/grunt/node_modules/js-yaml/lib/js-yaml/schema/default.js" afterPath="$PROJECT_DIR$/web/node_modules/grunt/node_modules/js-yaml/lib/js-yaml/schema/default.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/node_modules/grunt-contrib-watch/node_modules/gaze/node_modules/globule/node_modules/minimatch/test/defaults.js" afterPath="$PROJECT_DIR$/web/node_modules/grunt-contrib-watch/node_modules/gaze/node_modules/globule/node_modules/minimatch/test/defaults.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/node_modules/grunt/node_modules/minimatch/test/defaults.js" afterPath="$PROJECT_DIR$/web/node_modules/grunt/node_modules/minimatch/test/defaults.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/node_modules/grunt-contrib-watch/node_modules/tiny-lr-fork/node_modules/faye-websocket/lib/faye/websocket/draft75_parser.js" afterPath="$PROJECT_DIR$/web/node_modules/grunt-contrib-watch/node_modules/tiny-lr-fork/node_modules/faye-websocket/lib/faye/websocket/draft75_parser.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/node_modules/grunt-contrib-watch/node_modules/tiny-lr-fork/node_modules/faye-websocket/spec/faye/websocket/draft75parser_spec.js" afterPath="$PROJECT_DIR$/web/node_modules/grunt-contrib-watch/node_modules/tiny-lr-fork/node_modules/faye-websocket/spec/faye/websocket/draft75parser_spec.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/node_modules/grunt-contrib-watch/node_modules/tiny-lr-fork/node_modules/faye-websocket/lib/faye/websocket/draft76_parser.js" afterPath="$PROJECT_DIR$/web/node_modules/grunt-contrib-watch/node_modules/tiny-lr-fork/node_modules/faye-websocket/lib/faye/websocket/draft76_parser.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/node_modules/grunt-contrib-watch/node_modules/tiny-lr-fork/node_modules/faye-websocket/spec/faye/websocket/draft76parser_spec.js" afterPath="$PROJECT_DIR$/web/node_modules/grunt-contrib-watch/node_modules/tiny-lr-fork/node_modules/faye-websocket/spec/faye/websocket/draft76parser_spec.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/node_modules/grunt/node_modules/js-yaml/examples/dumper.js" afterPath="$PROJECT_DIR$/web/node_modules/grunt/node_modules/js-yaml/examples/dumper.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/node_modules/grunt/node_modules/js-yaml/examples/dumper.json" afterPath="$PROJECT_DIR$/web/node_modules/grunt/node_modules/js-yaml/examples/dumper.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/node_modules/grunt/node_modules/js-yaml/node_modules/argparse/lib/argument/error.js" afterPath="$PROJECT_DIR$/web/node_modules/grunt/node_modules/js-yaml/node_modules/argparse/lib/argument/error.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/node_modules/grunt/node_modules/js-yaml/node_modules/esprima/bin/esparse.js" afterPath="$PROJECT_DIR$/web/node_modules/grunt/node_modules/js-yaml/node_modules/esprima/bin/esparse.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/node_modules/grunt/node_modules/js-yaml/node_modules/esprima/esprima.js" afterPath="$PROJECT_DIR$/web/node_modules/grunt/node_modules/js-yaml/node_modules/esprima/esprima.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/node_modules/grunt/node_modules/js-yaml/node_modules/esprima/bin/esvalidate.js" afterPath="$PROJECT_DIR$/web/node_modules/grunt/node_modules/js-yaml/node_modules/esprima/bin/esvalidate.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/node_modules/grunt-contrib-watch/node_modules/tiny-lr-fork/node_modules/faye-websocket/lib/faye/websocket/api/event.js" afterPath="$PROJECT_DIR$/web/node_modules/grunt-contrib-watch/node_modules/tiny-lr-fork/node_modules/faye-websocket/lib/faye/websocket/api/event.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/node_modules/grunt-contrib-watch/node_modules/tiny-lr-fork/node_modules/faye-websocket/lib/faye/websocket/api/event_target.js" afterPath="$PROJECT_DIR$/web/node_modules/grunt-contrib-watch/node_modules/tiny-lr-fork/node_modules/faye-websocket/lib/faye/websocket/api/event_target.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/node_modules/grunt-contrib-watch/node_modules/tiny-lr-fork/node_modules/faye-websocket/lib/faye/eventsource.js" afterPath="$PROJECT_DIR$/web/node_modules/grunt-contrib-watch/node_modules/tiny-lr-fork/node_modules/faye-websocket/lib/faye/eventsource.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/node_modules/grunt-contrib-watch/node_modules/tiny-lr-fork/node_modules/qs/examples.js" afterPath="$PROJECT_DIR$/web/node_modules/grunt-contrib-watch/node_modules/tiny-lr-fork/node_modules/qs/examples.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/node_modules/grunt/node_modules/js-yaml/node_modules/argparse/lib/argument/exclusive.js" afterPath="$PROJECT_DIR$/web/node_modules/grunt/node_modules/js-yaml/node_modules/argparse/lib/argument/exclusive.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/node_modules/grunt-contrib-watch/node_modules/tiny-lr-fork/node_modules/qs/test/browser/expect.js" afterPath="$PROJECT_DIR$/web/node_modules/grunt-contrib-watch/node_modules/tiny-lr-fork/node_modules/qs/test/browser/expect.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/node_modules/grunt-contrib-watch/node_modules/tiny-lr-fork/node_modules/noptify/util/extend.js" afterPath="$PROJECT_DIR$/web/node_modules/grunt-contrib-watch/node_modules/tiny-lr-fork/node_modules/noptify/util/extend.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/node_modules/grunt-contrib-watch/node_modules/gaze/node_modules/globule/node_modules/minimatch/test/extglob-ending-with-state-char.js" afterPath="$PROJECT_DIR$/web/node_modules/grunt-contrib-watch/node_modules/gaze/node_modules/globule/node_modules/minimatch/test/extglob-ending-with-state-char.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/node_modules/grunt/node_modules/minimatch/test/extglob-ending-with-state-char.js" afterPath="$PROJECT_DIR$/web/node_modules/grunt/node_modules/minimatch/test/extglob-ending-with-state-char.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/node_modules/grunt/node_modules/js-yaml/node_modules/argparse/lib/action/store/false.js" afterPath="$PROJECT_DIR$/web/node_modules/grunt/node_modules/js-yaml/node_modules/argparse/lib/action/store/false.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/node_modules/grunt/node_modules/findup-sync/lib/findup-sync.js" afterPath="$PROJECT_DIR$/web/node_modules/grunt/node_modules/findup-sync/lib/findup-sync.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/node_modules/grunt/node_modules/findup-sync/test/findup-sync_test.js" afterPath="$PROJECT_DIR$/web/node_modules/grunt/node_modules/findup-sync/test/findup-sync_test.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/node_modules/grunt-contrib-watch/node_modules/gaze/node_modules/globule/node_modules/minimatch/node_modules/lru-cache/test/foreach.js" afterPath="$PROJECT_DIR$/web/node_modules/grunt-contrib-watch/node_modules/gaze/node_modules/globule/node_modules/minimatch/node_modules/lru-cache/test/foreach.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/node_modules/grunt/node_modules/minimatch/node_modules/lru-cache/test/foreach.js" afterPath="$PROJECT_DIR$/web/node_modules/grunt/node_modules/minimatch/node_modules/lru-cache/test/foreach.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/node_modules/grunt/node_modules/js-yaml/node_modules/argparse/lib/help/formatter.js" afterPath="$PROJECT_DIR$/web/node_modules/grunt/node_modules/js-yaml/node_modules/argparse/lib/help/formatter.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/node_modules/grunt/node_modules/js-yaml/lib/js-yaml/type/js/function.js" afterPath="$PROJECT_DIR$/web/node_modules/grunt/node_modules/js-yaml/lib/js-yaml/type/js/function.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/node_modules/grunt/node_modules/js-yaml/node_modules/argparse/node_modules/underscore.string/test/test_underscore/functions.js" afterPath="$PROJECT_DIR$/web/node_modules/grunt/node_modules/js-yaml/node_modules/argparse/node_modules/underscore.string/test/test_underscore/functions.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/node_modules/grunt/node_modules/findup-sync/node_modules/glob/examples/g.js" afterPath="$PROJECT_DIR$/web/node_modules/grunt/node_modules/findup-sync/node_modules/glob/examples/g.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/node_modules/grunt/node_modules/iconv-lite/test/gbk-test.js" afterPath="$PROJECT_DIR$/web/node_modules/grunt/node_modules/iconv-lite/test/gbk-test.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/node_modules/grunt/node_modules/iconv-lite/encodings/gbk.js" afterPath="$PROJECT_DIR$/web/node_modules/grunt/node_modules/iconv-lite/encodings/gbk.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/node_modules/grunt/node_modules/iconv-lite/encodings/table/gbk.js" afterPath="$PROJECT_DIR$/web/node_modules/grunt/node_modules/iconv-lite/encodings/table/gbk.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/node_modules/grunt/node_modules/iconv-lite/generation/generate-big5-table.js" afterPath="$PROJECT_DIR$/web/node_modules/grunt/node_modules/iconv-lite/generation/generate-big5-table.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/node_modules/grunt/node_modules/iconv-lite/generation/generate-singlebyte.js" afterPath="$PROJECT_DIR$/web/node_modules/grunt/node_modules/iconv-lite/generation/generate-singlebyte.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/node_modules/grunt/node_modules/getobject/lib/getobject.js" afterPath="$PROJECT_DIR$/web/node_modules/grunt/node_modules/getobject/lib/getobject.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/node_modules/grunt/node_modules/findup-sync/node_modules/glob/glob.js" afterPath="$PROJECT_DIR$/web/node_modules/grunt/node_modules/findup-sync/node_modules/glob/glob.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/node_modules/grunt/node_modules/findup-sync/node_modules/glob/test/globstar-match.js" afterPath="$PROJECT_DIR$/web/node_modules/grunt/node_modules/findup-sync/node_modules/glob/test/globstar-match.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/node_modules/grunt-contrib-watch/node_modules/gaze/node_modules/globule/node_modules/glob/node_modules/graceful-fs/graceful-fs.js" afterPath="$PROJECT_DIR$/web/node_modules/grunt-contrib-watch/node_modules/gaze/node_modules/globule/node_modules/glob/node_modules/graceful-fs/graceful-fs.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/node_modules/grunt/node_modules/iconv-lite/test/greek-test.js" afterPath="$PROJECT_DIR$/web/node_modules/grunt/node_modules/iconv-lite/test/greek-test.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/node_modules/grunt/node_modules/js-yaml/node_modules/argparse/lib/argument/group.js" afterPath="$PROJECT_DIR$/web/node_modules/grunt/node_modules/js-yaml/node_modules/argparse/lib/argument/group.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/node_modules/grunt-contrib-watch/node_modules/tiny-lr-fork/node_modules/faye-websocket/lib/faye/websocket/hybi_parser/handshake.js" afterPath="$PROJECT_DIR$/web/node_modules/grunt-contrib-watch/node_modules/tiny-lr-fork/node_modules/faye-websocket/lib/faye/websocket/hybi_parser/handshake.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/node_modules/grunt/node_modules/js-yaml/node_modules/argparse/examples/help.js" afterPath="$PROJECT_DIR$/web/node_modules/grunt/node_modules/js-yaml/node_modules/argparse/examples/help.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/node_modules/grunt/node_modules/js-yaml/node_modules/argparse/lib/action/help.js" afterPath="$PROJECT_DIR$/web/node_modules/grunt/node_modules/js-yaml/node_modules/argparse/lib/action/help.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/node_modules/grunt-contrib-watch/node_modules/tiny-lr-fork/node_modules/faye-websocket/lib/faye/websocket/hybi_parser.js" afterPath="$PROJECT_DIR$/web/node_modules/grunt-contrib-watch/node_modules/tiny-lr-fork/node_modules/faye-websocket/lib/faye/websocket/hybi_parser.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/node_modules/grunt-contrib-watch/node_modules/tiny-lr-fork/node_modules/faye-websocket/spec/faye/websocket/hybi_parser_spec.js" afterPath="$PROJECT_DIR$/web/node_modules/grunt-contrib-watch/node_modules/tiny-lr-fork/node_modules/faye-websocket/spec/faye/websocket/hybi_parser_spec.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/index.html" afterPath="$PROJECT_DIR$/web/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/css/main.css" afterPath="$PROJECT_DIR$/web/css/main.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/node_modules/grunt-contrib-watch/node_modules/tiny-lr-fork/node_modules/qs/test/browser/index.html" afterPath="$PROJECT_DIR$/web/node_modules/grunt-contrib-watch/node_modules/tiny-lr-fork/node_modules/qs/test/browser/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/node_modules/grunt/node_modules/js-yaml/node_modules/argparse/node_modules/underscore/index.html" afterPath="$PROJECT_DIR$/web/node_modules/grunt/node_modules/js-yaml/node_modules/argparse/node_modules/underscore/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/node_modules/grunt/node_modules/js-yaml/node_modules/argparse/node_modules/underscore.string/test/test_underscore/index.html" afterPath="$PROJECT_DIR$/web/node_modules/grunt/node_modules/js-yaml/node_modules/argparse/node_modules/underscore.string/test/test_underscore/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/node_modules/grunt-contrib-watch/node_modules/tiny-lr-fork/lib/index.js" afterPath="$PROJECT_DIR$/web/node_modules/grunt-contrib-watch/node_modules/tiny-lr-fork/lib/index.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/node_modules/grunt-contrib-watch/node_modules/tiny-lr-fork/node_modules/debug/index.js" afterPath="$PROJECT_DIR$/web/node_modules/grunt-contrib-watch/node_modules/tiny-lr-fork/node_modules/debug/index.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/node_modules/grunt-contrib-watch/node_modules/tiny-lr-fork/node_modules/noptify/index.js" afterPath="$PROJECT_DIR$/web/node_modules/grunt-contrib-watch/node_modules/tiny-lr-fork/node_modules/noptify/index.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/node_modules/grunt-contrib-watch/node_modules/tiny-lr-fork/node_modules/noptify/util/index.js" afterPath="$PROJECT_DIR$/web/node_modules/grunt-contrib-watch/node_modules/tiny-lr-fork/node_modules/noptify/util/index.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/node_modules/grunt-contrib-watch/node_modules/tiny-lr-fork/node_modules/qs/index.js" afterPath="$PROJECT_DIR$/web/node_modules/grunt-contrib-watch/node_modules/tiny-lr-fork/node_modules/qs/index.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/node_modules/grunt/node_modules/iconv-lite/index.js" afterPath="$PROJECT_DIR$/web/node_modules/grunt/node_modules/iconv-lite/index.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/node_modules/grunt/node_modules/findup-sync/node_modules/glob/node_modules/inherits/inherits_browser.js" afterPath="$PROJECT_DIR$/web/node_modules/grunt/node_modules/findup-sync/node_modules/glob/node_modules/inherits/inherits_browser.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/node_modules/grunt-contrib-watch/node_modules/tiny-lr-fork/node_modules/qs/test/browser/jquery.js" afterPath="$PROJECT_DIR$/web/node_modules/grunt-contrib-watch/node_modules/tiny-lr-fork/node_modules/qs/test/browser/jquery.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/node_modules/grunt/node_modules/js-yaml/node_modules/argparse/node_modules/underscore.string/test/test_underscore/vendor/jquery.js" afterPath="$PROJECT_DIR$/web/node_modules/grunt/node_modules/js-yaml/node_modules/argparse/node_modules/underscore.string/test/test_underscore/vendor/jquery.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/node_modules/grunt/node_modules/js-yaml/node_modules/argparse/node_modules/underscore.string/test/test_underscore/vendor/jslitmus.js" afterPath="$PROJECT_DIR$/web/node_modules/grunt/node_modules/js-yaml/node_modules/argparse/node_modules/underscore.string/test/test_underscore/vendor/jslitmus.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/node_modules/grunt-contrib-watch/node_modules/tiny-lr-fork/lib/public/livereload.js" afterPath="$PROJECT_DIR$/web/node_modules/grunt-contrib-watch/node_modules/tiny-lr-fork/lib/public/livereload.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/node_modules/grunt-contrib-watch/node_modules/gaze/node_modules/globule/node_modules/lodash/dist/lodash.compat.js" afterPath="$PROJECT_DIR$/web/node_modules/grunt-contrib-watch/node_modules/gaze/node_modules/globule/node_modules/lodash/dist/lodash.compat.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/node_modules/grunt-contrib-watch/node_modules/lodash/dist/lodash.compat.js" afterPath="$PROJECT_DIR$/web/node_modules/grunt-contrib-watch/node_modules/lodash/dist/lodash.compat.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/node_modules/grunt/node_modules/findup-sync/node_modules/lodash/dist/lodash.compat.js" afterPath="$PROJECT_DIR$/web/node_modules/grunt/node_modules/findup-sync/node_modules/lodash/dist/lodash.compat.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/node_modules/grunt-contrib-watch/node_modules/gaze/node_modules/globule/node_modules/lodash/dist/lodash.compat.min.js" afterPath="$PROJECT_DIR$/web/node_modules/grunt-contrib-watch/node_modules/gaze/node_modules/globule/node_modules/lodash/dist/lodash.compat.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/node_modules/grunt-contrib-watch/node_modules/lodash/dist/lodash.compat.min.js" afterPath="$PROJECT_DIR$/web/node_modules/grunt-contrib-watch/node_modules/lodash/dist/lodash.compat.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/node_modules/grunt/node_modules/findup-sync/node_modules/lodash/dist/lodash.compat.min.js" afterPath="$PROJECT_DIR$/web/node_modules/grunt/node_modules/findup-sync/node_modules/lodash/dist/lodash.compat.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/node_modules/grunt-contrib-watch/node_modules/gaze/node_modules/globule/node_modules/lodash/dist/lodash.js" afterPath="$PROJECT_DIR$/web/node_modules/grunt-contrib-watch/node_modules/gaze/node_modules/globule/node_modules/lodash/dist/lodash.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/node_modules/grunt-contrib-watch/node_modules/lodash/lodash.js" afterPath="$PROJECT_DIR$/web/node_modules/grunt-contrib-watch/node_modules/lodash/lodash.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/node_modules/grunt-contrib-watch/node_modules/lodash/dist/lodash.js" afterPath="$PROJECT_DIR$/web/node_modules/grunt-contrib-watch/node_modules/lodash/dist/lodash.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/node_modules/grunt/node_modules/findup-sync/node_modules/lodash/lodash.js" afterPath="$PROJECT_DIR$/web/node_modules/grunt/node_modules/findup-sync/node_modules/lodash/lodash.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/node_modules/grunt/node_modules/findup-sync/node_modules/lodash/dist/lodash.js" afterPath="$PROJECT_DIR$/web/node_modules/grunt/node_modules/findup-sync/node_modules/lodash/dist/lodash.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/node_modules/grunt-contrib-watch/node_modules/gaze/node_modules/globule/node_modules/lodash/dist/lodash.min.js" afterPath="$PROJECT_DIR$/web/node_modules/grunt-contrib-watch/node_modules/gaze/node_modules/globule/node_modules/lodash/dist/lodash.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/node_modules/grunt-contrib-watch/node_modules/lodash/dist/lodash.min.js" afterPath="$PROJECT_DIR$/web/node_modules/grunt-contrib-watch/node_modules/lodash/dist/lodash.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/node_modules/grunt/node_modules/findup-sync/node_modules/lodash/dist/lodash.min.js" afterPath="$PROJECT_DIR$/web/node_modules/grunt/node_modules/findup-sync/node_modules/lodash/dist/lodash.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/node_modules/grunt-contrib-watch/node_modules/gaze/node_modules/globule/node_modules/lodash/dist/lodash.underscore.js" afterPath="$PROJECT_DIR$/web/node_modules/grunt-contrib-watch/node_modules/gaze/node_modules/globule/node_modules/lodash/dist/lodash.underscore.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/node_modules/grunt-contrib-watch/node_modules/lodash/dist/lodash.underscore.js" afterPath="$PROJECT_DIR$/web/node_modules/grunt-contrib-watch/node_modules/lodash/dist/lodash.underscore.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/node_modules/grunt/node_modules/findup-sync/node_modules/lodash/dist/lodash.underscore.js" afterPath="$PROJECT_DIR$/web/node_modules/grunt/node_modules/findup-sync/node_modules/lodash/dist/lodash.underscore.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/node_modules/grunt-contrib-watch/node_modules/gaze/node_modules/globule/node_modules/lodash/dist/lodash.underscore.min.js" afterPath="$PROJECT_DIR$/web/node_modules/grunt-contrib-watch/node_modules/gaze/node_modules/globule/node_modules/lodash/dist/lodash.underscore.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/node_modules/grunt-contrib-watch/node_modules/lodash/dist/lodash.underscore.min.js" afterPath="$PROJECT_DIR$/web/node_modules/grunt-contrib-watch/node_modules/lodash/dist/lodash.underscore.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/node_modules/grunt/node_modules/findup-sync/node_modules/lodash/dist/lodash.underscore.min.js" afterPath="$PROJECT_DIR$/web/node_modules/grunt/node_modules/findup-sync/node_modules/lodash/dist/lodash.underscore.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/node_modules/grunt-contrib-watch/node_modules/gaze/node_modules/globule/node_modules/minimatch/node_modules/lru-cache/lib/lru-cache.js" afterPath="$PROJECT_DIR$/web/node_modules/grunt-contrib-watch/node_modules/gaze/node_modules/globule/node_modules/minimatch/node_modules/lru-cache/lib/lru-cache.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/node_modules/grunt/node_modules/minimatch/node_modules/lru-cache/lib/lru-cache.js" afterPath="$PROJECT_DIR$/web/node_modules/grunt/node_modules/minimatch/node_modules/lru-cache/lib/lru-cache.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/node_modules/grunt/node_modules/iconv-lite/test/main-test.js" afterPath="$PROJECT_DIR$/web/node_modules/grunt/node_modules/iconv-lite/test/main-test.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/node_modules/grunt/node_modules/findup-sync/node_modules/glob/test/mark.js" afterPath="$PROJECT_DIR$/web/node_modules/grunt/node_modules/findup-sync/node_modules/glob/test/mark.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/node_modules/grunt-contrib-watch/node_modules/gaze/node_modules/globule/node_modules/minimatch/node_modules/lru-cache/test/memory-leak.js" afterPath="$PROJECT_DIR$/web/node_modules/grunt-contrib-watch/node_modules/gaze/node_modules/globule/node_modules/minimatch/node_modules/lru-cache/test/memory-leak.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/node_modules/grunt/node_modules/minimatch/node_modules/lru-cache/test/memory-leak.js" afterPath="$PROJECT_DIR$/web/node_modules/grunt/node_modules/minimatch/node_modules/lru-cache/test/memory-leak.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/node_modules/grunt-contrib-watch/node_modules/tiny-lr-fork/test/middleware.js" afterPath="$PROJECT_DIR$/web/node_modules/grunt-contrib-watch/node_modules/tiny-lr-fork/test/middleware.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/node_modules/grunt/node_modules/js-yaml/lib/js-yaml/schema/minimal.js" afterPath="$PROJECT_DIR$/web/node_modules/grunt/node_modules/js-yaml/lib/js-yaml/schema/minimal.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/node_modules/grunt-contrib-watch/node_modules/gaze/node_modules/globule/node_modules/minimatch/minimatch.js" afterPath="$PROJECT_DIR$/web/node_modules/grunt-contrib-watch/node_modules/gaze/node_modules/globule/node_modules/minimatch/minimatch.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/node_modules/grunt/node_modules/minimatch/minimatch.js" afterPath="$PROJECT_DIR$/web/node_modules/grunt/node_modules/minimatch/minimatch.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/node_modules/grunt-contrib-watch/node_modules/tiny-lr-fork/node_modules/qs/test/browser/mocha.css" afterPath="$PROJECT_DIR$/web/node_modules/grunt-contrib-watch/node_modules/tiny-lr-fork/node_modules/qs/test/browser/mocha.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/node_modules/grunt-contrib-watch/node_modules/tiny-lr-fork/node_modules/qs/test/browser/mocha.js" afterPath="$PROJECT_DIR$/web/node_modules/grunt-contrib-watch/node_modules/tiny-lr-fork/node_modules/qs/test/browser/mocha.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/node_modules/grunt-contrib-watch/node_modules/tiny-lr-fork/node_modules/noptify/node_modules/nopt/examples/my-program.js" afterPath="$PROJECT_DIR$/web/node_modules/grunt-contrib-watch/node_modules/tiny-lr-fork/node_modules/noptify/node_modules/nopt/examples/my-program.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/node_modules/grunt/node_modules/js-yaml/node_modules/argparse/lib/namespace.js" afterPath="$PROJECT_DIR$/web/node_modules/grunt/node_modules/js-yaml/node_modules/argparse/lib/namespace.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/node_modules/grunt/node_modules/getobject/test/namespace_test.js" afterPath="$PROJECT_DIR$/web/node_modules/grunt/node_modules/getobject/test/namespace_test.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/node_modules/grunt/node_modules/js-yaml/node_modules/argparse/examples/nargs.js" afterPath="$PROJECT_DIR$/web/node_modules/grunt/node_modules/js-yaml/node_modules/argparse/examples/nargs.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/node_modules/grunt/node_modules/findup-sync/node_modules/glob/test/new-glob-optional-options.js" afterPath="$PROJECT_DIR$/web/node_modules/grunt/node_modules/findup-sync/node_modules/glob/test/new-glob-optional-options.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/node_modules/grunt/node_modules/findup-sync/node_modules/glob/test/nocase-nomagic.js" afterPath="$PROJECT_DIR$/web/node_modules/grunt/node_modules/findup-sync/node_modules/glob/test/nocase-nomagic.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/node_modules/grunt-contrib-watch/node_modules/tiny-lr-fork/node_modules/noptify/node_modules/nopt/bin/nopt.js" afterPath="$PROJECT_DIR$/web/node_modules/grunt-contrib-watch/node_modules/tiny-lr-fork/node_modules/noptify/node_modules/nopt/bin/nopt.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/node_modules/grunt-contrib-watch/node_modules/tiny-lr-fork/node_modules/noptify/node_modules/nopt/lib/nopt.js" afterPath="$PROJECT_DIR$/web/node_modules/grunt-contrib-watch/node_modules/tiny-lr-fork/node_modules/noptify/node_modules/nopt/lib/nopt.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/node_modules/grunt/node_modules/js-yaml/node_modules/argparse/node_modules/underscore.string/test/test_underscore/objects.js" afterPath="$PROJECT_DIR$/web/node_modules/grunt/node_modules/js-yaml/node_modules/argparse/node_modules/underscore.string/test/test_underscore/objects.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/node_modules/grunt-contrib-watch/node_modules/gaze/node_modules/globule/node_modules/glob/node_modules/graceful-fs/test/open.js" afterPath="$PROJECT_DIR$/web/node_modules/grunt-contrib-watch/node_modules/gaze/node_modules/globule/node_modules/glob/node_modules/graceful-fs/test/open.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/node_modules/grunt-contrib-watch/node_modules/async/package.json" afterPath="$PROJECT_DIR$/web/node_modules/grunt-contrib-watch/node_modules/async/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/node_modules/grunt-contrib-watch/node_modules/gaze/node_modules/globule/node_modules/lodash/package.json" afterPath="$PROJECT_DIR$/web/node_modules/grunt-contrib-watch/node_modules/gaze/node_modules/globule/node_modules/lodash/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/node_modules/grunt-contrib-watch/node_modules/gaze/node_modules/globule/node_modules/minimatch/package.json" afterPath="$PROJECT_DIR$/web/node_modules/grunt-contrib-watch/node_modules/gaze/node_modules/globule/node_modules/minimatch/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/node_modules/grunt-contrib-watch/node_modules/gaze/node_modules/globule/node_modules/minimatch/node_modules/lru-cache/package.json" afterPath="$PROJECT_DIR$/web/node_modules/grunt-contrib-watch/node_modules/gaze/node_modules/globule/node_modules/minimatch/node_modules/lru-cache/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/node_modules/grunt-contrib-watch/node_modules/gaze/node_modules/globule/node_modules/minimatch/node_modules/sigmund/package.json" afterPath="$PROJECT_DIR$/web/node_modules/grunt-contrib-watch/node_modules/gaze/node_modules/globule/node_modules/minimatch/node_modules/sigmund/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/node_modules/grunt-contrib-watch/node_modules/lodash/package.json" afterPath="$PROJECT_DIR$/web/node_modules/grunt-contrib-watch/node_modules/lodash/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/node_modules/grunt-contrib-watch/node_modules/tiny-lr-fork/package.json" afterPath="$PROJECT_DIR$/web/node_modules/grunt-contrib-watch/node_modules/tiny-lr-fork/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/node_modules/grunt-contrib-watch/node_modules/tiny-lr-fork/node_modules/debug/package.json" afterPath="$PROJECT_DIR$/web/node_modules/grunt-contrib-watch/node_modules/tiny-lr-fork/node_modules/debug/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/node_modules/grunt-contrib-watch/node_modules/tiny-lr-fork/node_modules/faye-websocket/package.json" afterPath="$PROJECT_DIR$/web/node_modules/grunt-contrib-watch/node_modules/tiny-lr-fork/node_modules/faye-websocket/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/node_modules/grunt-contrib-watch/node_modules/tiny-lr-fork/node_modules/noptify/package.json" afterPath="$PROJECT_DIR$/web/node_modules/grunt-contrib-watch/node_modules/tiny-lr-fork/node_modules/noptify/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/node_modules/grunt-contrib-watch/node_modules/tiny-lr-fork/node_modules/noptify/node_modules/nopt/package.json" afterPath="$PROJECT_DIR$/web/node_modules/grunt-contrib-watch/node_modules/tiny-lr-fork/node_modules/noptify/node_modules/nopt/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/node_modules/grunt-contrib-watch/node_modules/tiny-lr-fork/node_modules/noptify/node_modules/nopt/node_modules/abbrev/package.json" afterPath="$PROJECT_DIR$/web/node_modules/grunt-contrib-watch/node_modules/tiny-lr-fork/node_modules/noptify/node_modules/nopt/node_modules/abbrev/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/node_modules/grunt-contrib-watch/node_modules/tiny-lr-fork/node_modules/qs/package.json" afterPath="$PROJECT_DIR$/web/node_modules/grunt-contrib-watch/node_modules/tiny-lr-fork/node_modules/qs/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/node_modules/grunt/node_modules/coffee-script/package.json" afterPath="$PROJECT_DIR$/web/node_modules/grunt/node_modules/coffee-script/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/node_modules/grunt/node_modules/dateformat/package.json" afterPath="$PROJECT_DIR$/web/node_modules/grunt/node_modules/dateformat/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/node_modules/grunt/node_modules/findup-sync/package.json" afterPath="$PROJECT_DIR$/web/node_modules/grunt/node_modules/findup-sync/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/node_modules/grunt/node_modules/findup-sync/node_modules/glob/package.json" afterPath="$PROJECT_DIR$/web/node_modules/grunt/node_modules/findup-sync/node_modules/glob/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/node_modules/grunt/node_modules/findup-sync/node_modules/glob/node_modules/inherits/package.json" afterPath="$PROJECT_DIR$/web/node_modules/grunt/node_modules/findup-sync/node_modules/glob/node_modules/inherits/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/node_modules/grunt/node_modules/findup-sync/node_modules/lodash/package.json" afterPath="$PROJECT_DIR$/web/node_modules/grunt/node_modules/findup-sync/node_modules/lodash/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/node_modules/grunt/node_modules/getobject/package.json" afterPath="$PROJECT_DIR$/web/node_modules/grunt/node_modules/getobject/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/node_modules/grunt/node_modules/iconv-lite/package.json" afterPath="$PROJECT_DIR$/web/node_modules/grunt/node_modules/iconv-lite/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/node_modules/grunt/node_modules/js-yaml/node_modules/argparse/package.json" afterPath="$PROJECT_DIR$/web/node_modules/grunt/node_modules/js-yaml/node_modules/argparse/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/node_modules/grunt/node_modules/js-yaml/node_modules/argparse/node_modules/underscore/package.json" afterPath="$PROJECT_DIR$/web/node_modules/grunt/node_modules/js-yaml/node_modules/argparse/node_modules/underscore/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/node_modules/grunt/node_modules/js-yaml/node_modules/argparse/node_modules/underscore.string/package.json" afterPath="$PROJECT_DIR$/web/node_modules/grunt/node_modules/js-yaml/node_modules/argparse/node_modules/underscore.string/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/node_modules/grunt/node_modules/js-yaml/node_modules/esprima/package.json" afterPath="$PROJECT_DIR$/web/node_modules/grunt/node_modules/js-yaml/node_modules/esprima/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/node_modules/grunt/node_modules/minimatch/package.json" afterPath="$PROJECT_DIR$/web/node_modules/grunt/node_modules/minimatch/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/node_modules/grunt/node_modules/minimatch/node_modules/lru-cache/package.json" afterPath="$PROJECT_DIR$/web/node_modules/grunt/node_modules/minimatch/node_modules/lru-cache/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/node_modules/grunt/node_modules/minimatch/node_modules/sigmund/package.json" afterPath="$PROJECT_DIR$/web/node_modules/grunt/node_modules/minimatch/node_modules/sigmund/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/node_modules/grunt/node_modules/js-yaml/node_modules/argparse/examples/parents.js" afterPath="$PROJECT_DIR$/web/node_modules/grunt/node_modules/js-yaml/node_modules/argparse/examples/parents.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/node_modules/grunt-contrib-watch/node_modules/tiny-lr-fork/node_modules/qs/test/parse.js" afterPath="$PROJECT_DIR$/web/node_modules/grunt-contrib-watch/node_modules/tiny-lr-fork/node_modules/qs/test/parse.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/node_modules/grunt/node_modules/findup-sync/node_modules/glob/test/pause-resume.js" afterPath="$PROJECT_DIR$/web/node_modules/grunt/node_modules/findup-sync/node_modules/glob/test/pause-resume.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/node_modules/grunt/node_modules/iconv-lite/test/performance.js" afterPath="$PROJECT_DIR$/web/node_modules/grunt/node_modules/iconv-lite/test/performance.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/node_modules/grunt/node_modules/js-yaml/node_modules/argparse/examples/prefix_chars.js" afterPath="$PROJECT_DIR$/web/node_modules/grunt/node_modules/js-yaml/node_modules/argparse/examples/prefix_chars.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/node_modules/grunt-contrib-watch/node_modules/tiny-lr-fork/node_modules/qs/test/browser/qs.js" afterPath="$PROJECT_DIR$/web/node_modules/grunt-contrib-watch/node_modules/tiny-lr-fork/node_modules/qs/test/browser/qs.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/node_modules/grunt/node_modules/js-yaml/node_modules/argparse/node_modules/underscore.string/test/test_underscore/vendor/qunit.css" afterPath="$PROJECT_DIR$/web/node_modules/grunt/node_modules/js-yaml/node_modules/argparse/node_modules/underscore.string/test/test_underscore/vendor/qunit.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/node_modules/grunt/node_modules/js-yaml/node_modules/argparse/node_modules/underscore.string/test/test_underscore/vendor/qunit.js" afterPath="$PROJECT_DIR$/web/node_modules/grunt/node_modules/js-yaml/node_modules/argparse/node_modules/underscore.string/test/test_underscore/vendor/qunit.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/node_modules/grunt/node_modules/findup-sync/node_modules/glob/test/readme-issue.js" afterPath="$PROJECT_DIR$/web/node_modules/grunt/node_modules/findup-sync/node_modules/glob/test/readme-issue.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/node_modules/grunt/node_modules/js-yaml/node_modules/esprima/test/reflect.js" afterPath="$PROJECT_DIR$/web/node_modules/grunt/node_modules/js-yaml/node_modules/esprima/test/reflect.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/node_modules/grunt/node_modules/js-yaml/lib/js-yaml/type/js/regexp.js" afterPath="$PROJECT_DIR$/web/node_modules/grunt/node_modules/js-yaml/lib/js-yaml/type/js/regexp.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/node_modules/grunt/node_modules/findup-sync/node_modules/glob/test/root-nomount.js" afterPath="$PROJECT_DIR$/web/node_modules/grunt/node_modules/findup-sync/node_modules/glob/test/root-nomount.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/node_modules/grunt/node_modules/findup-sync/node_modules/glob/test/root.js" afterPath="$PROJECT_DIR$/web/node_modules/grunt/node_modules/findup-sync/node_modules/glob/test/root.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/node_modules/grunt/node_modules/js-yaml/node_modules/argparse/node_modules/underscore.string/test/run-qunit.js" afterPath="$PROJECT_DIR$/web/node_modules/grunt/node_modules/js-yaml/node_modules/argparse/node_modules/underscore.string/test/run-qunit.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/node_modules/grunt/node_modules/js-yaml/node_modules/esprima/test/run.js" afterPath="$PROJECT_DIR$/web/node_modules/grunt/node_modules/js-yaml/node_modules/esprima/test/run.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/node_modules/grunt-contrib-watch/node_modules/tiny-lr-fork/node_modules/faye-websocket/spec/runner.js" afterPath="$PROJECT_DIR$/web/node_modules/grunt-contrib-watch/node_modules/tiny-lr-fork/node_modules/faye-websocket/spec/runner.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/node_modules/grunt/node_modules/js-yaml/node_modules/esprima/test/runner.js" afterPath="$PROJECT_DIR$/web/node_modules/grunt/node_modules/js-yaml/node_modules/esprima/test/runner.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/node_modules/grunt/node_modules/js-yaml/lib/js-yaml/schema/safe.js" afterPath="$PROJECT_DIR$/web/node_modules/grunt/node_modules/js-yaml/lib/js-yaml/schema/safe.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/node_modules/grunt/node_modules/js-yaml/examples/sample_document.js" afterPath="$PROJECT_DIR$/web/node_modules/grunt/node_modules/js-yaml/examples/sample_document.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/node_modules/grunt-contrib-watch/node_modules/tiny-lr-fork/lib/server.js" afterPath="$PROJECT_DIR$/web/node_modules/grunt-contrib-watch/node_modules/tiny-lr-fork/lib/server.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/node_modules/grunt-contrib-watch/node_modules/tiny-lr-fork/node_modules/faye-websocket/examples/server.js" afterPath="$PROJECT_DIR$/web/node_modules/grunt-contrib-watch/node_modules/tiny-lr-fork/node_modules/faye-websocket/examples/server.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/node_modules/grunt-contrib-watch/node_modules/tiny-lr-fork/test/server.js" afterPath="$PROJECT_DIR$/web/node_modules/grunt-contrib-watch/node_modules/tiny-lr-fork/test/server.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/js/setup.js" afterPath="$PROJECT_DIR$/web/js/setup.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/node_modules/grunt-contrib-watch/node_modules/gaze/node_modules/globule/node_modules/minimatch/node_modules/sigmund/sigmund.js" afterPath="$PROJECT_DIR$/web/node_modules/grunt-contrib-watch/node_modules/gaze/node_modules/globule/node_modules/minimatch/node_modules/sigmund/sigmund.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/node_modules/grunt/node_modules/minimatch/node_modules/sigmund/sigmund.js" afterPath="$PROJECT_DIR$/web/node_modules/grunt/node_modules/minimatch/node_modules/sigmund/sigmund.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/node_modules/grunt/node_modules/iconv-lite/encodings/singlebyte.js" afterPath="$PROJECT_DIR$/web/node_modules/grunt/node_modules/iconv-lite/encodings/singlebyte.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/node_modules/grunt/node_modules/js-yaml/node_modules/argparse/node_modules/underscore.string/test/speed.js" afterPath="$PROJECT_DIR$/web/node_modules/grunt/node_modules/js-yaml/node_modules/argparse/node_modules/underscore.string/test/speed.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/node_modules/grunt/node_modules/js-yaml/node_modules/argparse/node_modules/underscore.string/test/test_underscore/speed.js" afterPath="$PROJECT_DIR$/web/node_modules/grunt/node_modules/js-yaml/node_modules/argparse/node_modules/underscore.string/test/test_underscore/speed.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/node_modules/grunt-contrib-watch/node_modules/tiny-lr-fork/node_modules/faye-websocket/examples/sse.html" afterPath="$PROJECT_DIR$/web/node_modules/grunt-contrib-watch/node_modules/tiny-lr-fork/node_modules/faye-websocket/examples/sse.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/node_modules/grunt/node_modules/findup-sync/node_modules/glob/test/stat.js" afterPath="$PROJECT_DIR$/web/node_modules/grunt/node_modules/findup-sync/node_modules/glob/test/stat.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/node_modules/grunt/node_modules/js-yaml/node_modules/argparse/lib/action/store.js" afterPath="$PROJECT_DIR$/web/node_modules/grunt/node_modules/js-yaml/node_modules/argparse/lib/action/store.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/node_modules/grunt-contrib-watch/node_modules/tiny-lr-fork/node_modules/faye-websocket/lib/faye/websocket/hybi_parser/stream_reader.js" afterPath="$PROJECT_DIR$/web/node_modules/grunt-contrib-watch/node_modules/tiny-lr-fork/node_modules/faye-websocket/lib/faye/websocket/hybi_parser/stream_reader.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/node_modules/grunt-contrib-watch/node_modules/tiny-lr-fork/node_modules/qs/test/stringify.js" afterPath="$PROJECT_DIR$/web/node_modules/grunt-contrib-watch/node_modules/tiny-lr-fork/node_modules/qs/test/stringify.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/node_modules/grunt/node_modules/js-yaml/node_modules/argparse/node_modules/underscore.string/test/strings.js" afterPath="$PROJECT_DIR$/web/node_modules/grunt/node_modules/js-yaml/node_modules/argparse/node_modules/underscore.string/test/strings.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/node_modules/grunt/node_modules/js-yaml/node_modules/argparse/node_modules/underscore.string/test/strings_standalone.js" afterPath="$PROJECT_DIR$/web/node_modules/grunt/node_modules/js-yaml/node_modules/argparse/node_modules/underscore.string/test/strings_standalone.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/node_modules/grunt/node_modules/js-yaml/node_modules/argparse/examples/sub_commands.js" afterPath="$PROJECT_DIR$/web/node_modules/grunt/node_modules/js-yaml/node_modules/argparse/examples/sub_commands.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/node_modules/grunt/node_modules/js-yaml/node_modules/argparse/lib/action/subparsers.js" afterPath="$PROJECT_DIR$/web/node_modules/grunt/node_modules/js-yaml/node_modules/argparse/lib/action/subparsers.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/node_modules/grunt/node_modules/js-yaml/node_modules/argparse/examples/sum.js" afterPath="$PROJECT_DIR$/web/node_modules/grunt/node_modules/js-yaml/node_modules/argparse/examples/sum.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/node_modules/grunt/node_modules/js-yaml/node_modules/argparse/node_modules/underscore.string/test/test.html" afterPath="$PROJECT_DIR$/web/node_modules/grunt/node_modules/js-yaml/node_modules/argparse/node_modules/underscore.string/test/test.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/node_modules/grunt-contrib-watch/node_modules/tiny-lr-fork/node_modules/noptify/node_modules/nopt/node_modules/abbrev/test.js" afterPath="$PROJECT_DIR$/web/node_modules/grunt-contrib-watch/node_modules/tiny-lr-fork/node_modules/noptify/node_modules/nopt/node_modules/abbrev/test.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/node_modules/grunt/node_modules/findup-sync/node_modules/glob/node_modules/inherits/test.js" afterPath="$PROJECT_DIR$/web/node_modules/grunt/node_modules/findup-sync/node_modules/glob/node_modules/inherits/test.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/node_modules/grunt/node_modules/js-yaml/node_modules/esprima/test/test.js" afterPath="$PROJECT_DIR$/web/node_modules/grunt/node_modules/js-yaml/node_modules/esprima/test/test.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/node_modules/grunt/node_modules/js-yaml/node_modules/argparse/node_modules/underscore.string/test/test_standalone.html" afterPath="$PROJECT_DIR$/web/node_modules/grunt/node_modules/js-yaml/node_modules/argparse/node_modules/underscore.string/test/test_standalone.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/node_modules/grunt/node_modules/js-yaml/node_modules/argparse/examples/testformatters.js" afterPath="$PROJECT_DIR$/web/node_modules/grunt/node_modules/js-yaml/node_modules/argparse/examples/testformatters.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/node_modules/grunt/node_modules/js-yaml/lib/js-yaml/type/timestamp.js" afterPath="$PROJECT_DIR$/web/node_modules/grunt/node_modules/js-yaml/lib/js-yaml/type/timestamp.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/node_modules/grunt-contrib-watch/node_modules/tiny-lr-fork/tasks/tiny-lr.js" afterPath="$PROJECT_DIR$/web/node_modules/grunt-contrib-watch/node_modules/tiny-lr-fork/tasks/tiny-lr.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/node_modules/grunt-contrib-watch/node_modules/tiny-lr-fork/bin/tiny-lr" afterPath="$PROJECT_DIR$/web/node_modules/grunt-contrib-watch/node_modules/tiny-lr-fork/bin/tiny-lr" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/node_modules/grunt/node_modules/js-yaml/node_modules/argparse/lib/action/store/true.js" afterPath="$PROJECT_DIR$/web/node_modules/grunt/node_modules/js-yaml/node_modules/argparse/lib/action/store/true.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/node_modules/grunt/node_modules/iconv-lite/test/turkish-test.js" afterPath="$PROJECT_DIR$/web/node_modules/grunt/node_modules/iconv-lite/test/turkish-test.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/node_modules/grunt-contrib-watch/node_modules/gaze/node_modules/globule/node_modules/glob/node_modules/graceful-fs/test/ulimit.js" afterPath="$PROJECT_DIR$/web/node_modules/grunt-contrib-watch/node_modules/gaze/node_modules/globule/node_modules/glob/node_modules/graceful-fs/test/ulimit.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/node_modules/grunt/node_modules/js-yaml/lib/js-yaml/type/js/undefined.js" afterPath="$PROJECT_DIR$/web/node_modules/grunt/node_modules/js-yaml/lib/js-yaml/type/js/undefined.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/node_modules/grunt/node_modules/js-yaml/node_modules/argparse/node_modules/underscore/underscore-min.js" afterPath="$PROJECT_DIR$/web/node_modules/grunt/node_modules/js-yaml/node_modules/argparse/node_modules/underscore/underscore-min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/node_modules/grunt/node_modules/js-yaml/node_modules/argparse/node_modules/underscore/underscore.js" afterPath="$PROJECT_DIR$/web/node_modules/grunt/node_modules/js-yaml/node_modules/argparse/node_modules/underscore/underscore.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/node_modules/grunt/node_modules/js-yaml/node_modules/argparse/node_modules/underscore.string/test/underscore.js" afterPath="$PROJECT_DIR$/web/node_modules/grunt/node_modules/js-yaml/node_modules/argparse/node_modules/underscore.string/test/underscore.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/node_modules/grunt/node_modules/js-yaml/node_modules/argparse/node_modules/underscore.string/lib/underscore.string.js" afterPath="$PROJECT_DIR$/web/node_modules/grunt/node_modules/js-yaml/node_modules/argparse/node_modules/underscore.string/lib/underscore.string.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/node_modules/grunt/node_modules/js-yaml/node_modules/argparse/node_modules/underscore.string/dist/underscore.string.min.js" afterPath="$PROJECT_DIR$/web/node_modules/grunt/node_modules/js-yaml/node_modules/argparse/node_modules/underscore.string/dist/underscore.string.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/node_modules/grunt-contrib-watch/node_modules/tiny-lr-fork/bin/update-livereload" afterPath="$PROJECT_DIR$/web/node_modules/grunt-contrib-watch/node_modules/tiny-lr-fork/bin/update-livereload" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/node_modules/grunt/node_modules/findup-sync/node_modules/glob/examples/usr-local.js" afterPath="$PROJECT_DIR$/web/node_modules/grunt/node_modules/findup-sync/node_modules/glob/examples/usr-local.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/node_modules/grunt/node_modules/js-yaml/node_modules/argparse/node_modules/underscore.string/test/test_underscore/utility.js" afterPath="$PROJECT_DIR$/web/node_modules/grunt/node_modules/js-yaml/node_modules/argparse/node_modules/underscore.string/test/test_underscore/utility.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/node_modules/grunt/node_modules/js-yaml/node_modules/argparse/lib/action/version.js" afterPath="$PROJECT_DIR$/web/node_modules/grunt/node_modules/js-yaml/node_modules/argparse/lib/action/version.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/node_modules/grunt-contrib-watch/node_modules/tiny-lr-fork/node_modules/faye-websocket/lib/faye/websocket.js" afterPath="$PROJECT_DIR$/web/node_modules/grunt-contrib-watch/node_modules/tiny-lr-fork/node_modules/faye-websocket/lib/faye/websocket.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/node_modules/grunt-contrib-watch/node_modules/tiny-lr-fork/node_modules/faye-websocket/examples/ws.html" afterPath="$PROJECT_DIR$/web/node_modules/grunt-contrib-watch/node_modules/tiny-lr-fork/node_modules/faye-websocket/examples/ws.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/node_modules/grunt/node_modules/findup-sync/node_modules/glob/test/zz-cleanup.js" afterPath="$PROJECT_DIR$/web/node_modules/grunt/node_modules/findup-sync/node_modules/glob/test/zz-cleanup.js" />
     </list>
     <ignored path="tangelo.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -37,30 +296,25 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="index.html" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/web/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="58" column="109" selection-start="2448" selection-end="2448" vertical-scroll-proportion="0.42880794" vertical-offset="611" max-vertical-offset="1485">
+            <state vertical-scroll-proportion="-12.5" vertical-offset="785" max-vertical-offset="1680">
+              <caret line="74" column="52" selection-start-line="74" selection-start-column="52" selection-end-line="74" selection-end-column="52" />
               <folding>
                 <element signature="n#style#0;n#section#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <marker date="1400019810000" expanded="true" signature="1169:1322" placeholder="..." />
+                <marker date="1400019810000" expanded="true" signature="1262:1290" placeholder="..." />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="package.json" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/package.json">
+      <file leaf-file-name="taskmodel.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/js/app/models/taskmodel.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="2" column="22" selection-start="47" selection-end="47" vertical-scroll-proportion="-1.25" vertical-offset="0" max-vertical-offset="210">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Gruntfile.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/Gruntfile.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="15" column="9" selection-start="314" selection-end="314" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="390">
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="285">
+              <caret line="5" column="5" selection-start-line="5" selection-start-column="5" selection-end-line="5" selection-end-column="5" />
               <folding>
                 <element signature="e#0#40#0" expanded="false" />
               </folding>
@@ -68,19 +322,43 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="main.css" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/css/main.css">
+      <file leaf-file-name="taskcollection.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/js/app/collections/taskcollection.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="18" column="47" selection-start="317" selection-end="317" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="765">
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="225">
+              <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="setup.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/js/setup.js">
+      <file leaf-file-name="taskview.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/js/app/views/taskview.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="12" column="26" selection-start="239" selection-end="239" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="300">
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="450">
+              <caret line="12" column="50" selection-start-line="12" selection-start-column="50" selection-end-line="12" selection-end-column="50" />
+              <folding>
+                <element signature="e#0#40#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="appview.js" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/web/js/app/views/appview.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.5143805" vertical-offset="0" max-vertical-offset="904">
+              <caret line="31" column="0" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="tasklist.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/js/app/views/tasklist.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="15" max-vertical-offset="1410">
+              <caret line="22" column="51" selection-start-line="22" selection-start-column="51" selection-end-line="22" selection-end-column="51" />
               <folding>
                 <element signature="e#0#40#0" expanded="false" />
               </folding>
@@ -101,20 +379,25 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/web/js/app.js" />
-        <option value="$PROJECT_DIR$/web/js/setup.js" />
-        <option value="$PROJECT_DIR$/web/Gruntfile.js" />
         <option value="$PROJECT_DIR$/web/package.json" />
         <option value="$PROJECT_DIR$/web/css/main.css" />
+        <option value="$PROJECT_DIR$/web/Gruntfile.js" />
+        <option value="$PROJECT_DIR$/web/js/app.js" />
+        <option value="$PROJECT_DIR$/web/js/app/models/taskmodel.js" />
+        <option value="$PROJECT_DIR$/web/js/setup.js" />
+        <option value="$PROJECT_DIR$/web/js/app/collections/tasklist.js" />
+        <option value="$PROJECT_DIR$/web/js/app/views/appview.js" />
+        <option value="$PROJECT_DIR$/web/js/app/views/tasklist.js" />
+        <option value="$PROJECT_DIR$/web/js/app/views/taskview.js" />
         <option value="$PROJECT_DIR$/web/index.html" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="994" />
-    <option name="y" value="30" />
-    <option name="width" value="929" />
-    <option name="height" value="1047" />
+    <option name="x" value="840" />
+    <option name="y" value="22" />
+    <option name="width" value="840" />
+    <option name="height" value="1024" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -130,7 +413,7 @@
     <option name="STATE" value="0" />
   </component>
   <component name="ProjectView">
-    <navigator currentView="ProjectPane" proportions="" version="1" splitterProportion="0.5">
+    <navigator currentView="ProjectPane" proportions="" version="1">
       <flattenPackages />
       <showMembers />
       <showModules />
@@ -229,6 +512,106 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="js" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tangelo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tangelo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="web" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="js" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tangelo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tangelo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="web" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="js" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="models" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tangelo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tangelo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="web" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="js" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="collections" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tangelo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tangelo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="web" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="fonts" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -270,10 +653,15 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/web/index.html" />
+    <property name="last_opened_file_path" value="$USER_HOME$/weeblyTrial" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="recentsLimit" value="5" />
     <property name="restartRequiresConfirmation" value="true" />
+    <property name="options.lastSelected" value="preferences.sourceCode.General" />
+    <property name="options.splitter.main.proportions" value="0.3" />
+    <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="options.searchVisible" value="true" />
+    <property name="LayoutCode.rearrangeEntriesHTML" value="false" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -281,14 +669,6 @@
     </key>
   </component>
   <component name="RunManager" selected="JavaScript Debug.tangelo">
-    <configuration default="true" type="DartUnitRunConfigurationType" factoryName="DartUnit">
-      <option name="VMOptions" />
-      <option name="arguments" />
-      <option name="filePath" />
-      <option name="scope" value="ALL" />
-      <option name="testName" />
-      <method />
-    </configuration>
     <configuration default="true" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application">
       <option name="VMOptions" />
       <option name="arguments" />
@@ -299,22 +679,35 @@
       <option name="showConsoleOnStdOut" value="false" />
       <method />
     </configuration>
+    <configuration default="true" type="DartUnitRunConfigurationType" factoryName="DartUnit">
+      <option name="VMOptions" />
+      <option name="arguments" />
+      <option name="filePath" />
+      <option name="scope" value="ALL" />
+      <option name="testName" />
+      <method />
+    </configuration>
+    <configuration default="true" type="CucumberJavaScriptRunConfigurationType" factoryName="Cucumber.js">
+      <option name="cucumberJsArguments" />
+      <option name="executablePath" />
+      <option name="filePath" />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavaScriptTestRunnerKarma" factoryName="Karma" config-file="">
+      <envs />
+      <method />
+    </configuration>
     <configuration default="true" type="JSTestDriver:ConfigurationType" factoryName="JsTestDriver">
       <setting name="configLocationType" value="CONFIG_FILE" />
       <setting name="settingsFile" value="" />
       <setting name="serverType" value="INTERNAL" />
-      <setting name="preferredDebugBrowser" value="CHROME" />
+      <setting name="preferredDebugBrowser" value="Chrome" />
       <method />
     </configuration>
-    <configuration default="true" type="JavaScriptTestRunnerKarma" factoryName="Karma" singleton="true" config-file="">
-      <envs />
-      <method />
-    </configuration>
-    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug" singleton="true">
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
       <method />
     </configuration>
     <configuration default="true" type="NodeJSConfigurationType" factoryName="Node.js" working-dir="">
-      <browser start="false" url="" with-js-debugger="false" />
       <method />
     </configuration>
     <configuration default="false" name="tangelo" type="JavascriptDebugType" factoryName="JavaScript Debug" singleton="true" uri="http://localhost:63343/tangelo/web/index.html">
@@ -327,22 +720,8 @@
     </list>
   </component>
   <component name="ShelveChangesManager" show_recycled="false" />
-  <component name="SvnConfiguration" maxAnnotateRevisions="500" myUseAcceleration="nothing" myAutoUpdateAfterCommit="false" cleanupOnStartRun="false" SSL_PROTOCOLS="all">
-    <option name="USER" value="" />
-    <option name="PASSWORD" value="" />
-    <option name="mySSHConnectionTimeout" value="30000" />
-    <option name="mySSHReadTimeout" value="30000" />
-    <option name="LAST_MERGED_REVISION" />
-    <option name="MERGE_DRY_RUN" value="false" />
-    <option name="MERGE_DIFF_USE_ANCESTRY" value="true" />
-    <option name="UPDATE_LOCK_ON_DEMAND" value="false" />
-    <option name="IGNORE_SPACES_IN_MERGE" value="false" />
-    <option name="CHECK_NESTED_FOR_QUICK_MERGE" value="false" />
-    <option name="IGNORE_SPACES_IN_ANNOTATE" value="true" />
-    <option name="SHOW_MERGE_SOURCES_IN_ANNOTATE" value="true" />
-    <option name="FORCE_UPDATE" value="false" />
-    <option name="IGNORE_EXTERNALS" value="false" />
-    <myIsUseDefaultProxy>false</myIsUseDefaultProxy>
+  <component name="SvnConfiguration" myUseAcceleration="nothing" SSL_PROTOCOLS="all">
+    <configuration />
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -358,17 +737,16 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="994" y="30" width="929" height="1047" extended-state="0" />
+    <frame x="840" y="22" width="840" height="1024" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32960325" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32879582" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.21359223" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2899471" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.20833333" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.28900525" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -376,13 +754,17 @@
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
-    <option name="RECENTLY_FILTERED_USERS">
+    <option name="RECENTLY_FILTERED_USER_GROUPS">
+      <collection />
+    </option>
+    <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
       <collection />
     </option>
   </component>
@@ -400,79 +782,159 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/web/js/app/models/remove.txt">
+    <entry file="file://$PROJECT_DIR$/web/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="925">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/js/app/views/notaview.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="900">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/js/app/routers/removeme.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="900">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/js/app/collections/removeme.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="925">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/js/app.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="2" selection-start="152" selection-end="152" vertical-scroll-proportion="0.2574103" vertical-offset="0" max-vertical-offset="641">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/js/setup.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="26" selection-start="239" selection-end="239" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="300">
+        <state vertical-scroll-proportion="0.0" vertical-offset="611" max-vertical-offset="1485">
+          <caret line="58" column="109" selection-start-line="58" selection-start-column="109" selection-end-line="58" selection-end-column="109" />
           <folding>
-            <element signature="e#0#40#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/Gruntfile.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="9" selection-start="314" selection-end="314" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="390">
-          <folding>
-            <element signature="e#0#40#0" expanded="false" />
+            <element signature="n#style#0;n#section#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <marker date="1400019810000" expanded="true" signature="1169:1322" placeholder="..." />
+            <marker date="1400019810000" expanded="true" signature="1262:1290" placeholder="..." />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/web/package.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="22" selection-start="47" selection-end="47" vertical-scroll-proportion="-1.25" vertical-offset="0" max-vertical-offset="210">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="210">
+          <caret line="2" column="22" selection-start-line="2" selection-start-column="22" selection-end-line="2" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/Gruntfile.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="225" max-vertical-offset="420">
+          <caret line="15" column="9" selection-start-line="15" selection-start-column="9" selection-end-line="15" selection-end-column="9" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/web/css/main.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="47" selection-start="317" selection-end="317" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="765">
+        <state vertical-scroll-proportion="0.0" vertical-offset="270" max-vertical-offset="765">
+          <caret line="18" column="47" selection-start-line="18" selection-start-column="47" selection-end-line="18" selection-end-column="47" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/js/setup.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="180" max-vertical-offset="330">
+          <caret line="12" column="26" selection-start-line="12" selection-start-column="26" selection-end-line="12" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/js/app/views/notaview.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="900">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/js/app/routers/removeme.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="900">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="30" max-vertical-offset="210">
+          <caret line="2" column="22" selection-start-line="2" selection-start-column="22" selection-end-line="2" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/css/main.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.29126215" vertical-offset="0" max-vertical-offset="927">
+          <caret line="18" column="47" selection-start-line="18" selection-start-column="47" selection-end-line="18" selection-end-column="47" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/js/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="255">
+          <caret line="9" column="14" selection-start-line="9" selection-start-column="14" selection-end-line="9" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/js/setup.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="390">
+          <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/Gruntfile.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="420">
+          <caret line="10" column="34" selection-start-line="10" selection-start-column="34" selection-end-line="10" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/js/app/views/tasklist.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="15" max-vertical-offset="1410">
+          <caret line="22" column="51" selection-start-line="22" selection-start-column="51" selection-end-line="22" selection-end-column="51" />
+          <folding>
+            <element signature="e#0#40#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/js/app/views/taskview.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="450">
+          <caret line="12" column="50" selection-start-line="12" selection-start-column="50" selection-end-line="12" selection-end-column="50" />
+          <folding>
+            <element signature="e#0#40#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/web/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="58" column="109" selection-start="2448" selection-end="2448" vertical-scroll-proportion="0.42880794" vertical-offset="611" max-vertical-offset="1485">
+        <state vertical-scroll-proportion="-12.5" vertical-offset="785" max-vertical-offset="1680">
+          <caret line="74" column="52" selection-start-line="74" selection-start-column="52" selection-end-line="74" selection-end-column="52" />
           <folding>
             <element signature="n#style#0;n#section#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <marker date="1400019810000" expanded="true" signature="1169:1322" placeholder="..." />
+            <marker date="1400019810000" expanded="true" signature="1262:1290" placeholder="..." />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/js/app/models/taskmodel.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="285">
+          <caret line="5" column="5" selection-start-line="5" selection-start-column="5" selection-end-line="5" selection-end-column="5" />
+          <folding>
+            <element signature="e#0#40#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/js/app/collections/taskcollection.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="225">
+          <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/js/app/views/appview.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.5143805" vertical-offset="0" max-vertical-offset="904">
+          <caret line="31" column="0" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
