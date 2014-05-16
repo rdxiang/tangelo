@@ -6,6 +6,7 @@
 App.Views.AppView = Backbone.View.extend({
     el: $('body'),
 
+
     initialize: function () {
        _.bindAll(this, 'render');
 
@@ -21,6 +22,11 @@ App.Views.AppView = Backbone.View.extend({
         this.taskList = new App.Views.TaskList({
          //  el: $( ".tasklist")
         });
+
+
+     //   this.pomodoro = new App.Views.Pomodoro();
+
+
 
     //    this.collection.bind('add', this.pagelist.appendItem);
       //  this.collection.bind('change:selected', this.pagepreview.changePage);
